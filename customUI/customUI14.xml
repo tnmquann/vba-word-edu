@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon>
+        <tabs>
+            <tab id="tab2017" label="Tool VBA TNMQuan">
+            	
+<group id="group1" label="G&#7855;n ID">
+            <button id="testButton1-1" label="G&#7855;n ID6_VDC"
+                        imageMso="PivotClearCustomOrdering" 
+                        onAction= "Gan_ID" /> 
+			<button id="testButton1-2" label="G&#7855;n ID5_VDC"
+                        imageMso="PivotClearCustomOrdering" 
+                        onAction= "Gan_ID5" />
+			<button id="testButton1-3" label="G&#7855;n ID4"
+                        imageMso="PivotClearCustomOrdering" 
+                        onAction= "GanID" /> 
+	<menu id="menu1" label="Chuy&#7875;n ID">					
+			<button id="testButton1-4" label="DPS Sang ID5"
+							imageMso="HeaderInsertGallery"
+							onAction= "DPS_ID5N" />
+			<button id="testButton1-5" label="ID5HC Sang ID5"
+							imageMso="HeaderInsertGallery"
+							onAction= "ID5HC_ID5N" />
+			<button id="testButton1-6" label="ID5 Sang ID4"
+							imageMso="HeaderInsertGallery"
+							onAction= "ID5_ID4" />
+			<button id="testButton1-7" label="BTpro Sang DPS"
+							imageMso="HeaderInsertGallery"
+							onAction= "BTPro_DPS" />
+			<button id="testButton1-8" label="DPS Sang BTPro"
+							imageMso="HeaderInsertGallery"
+							onAction= "DPS_BTPro" />
+			<button id="testButton1-9" label="X&#243;a ID4"
+							imageMso="HeaderInsertGallery"
+							onAction= "xoaid4" />
+			<button id="testButton1-10" label="S&#7855;p x&#7871;p ID4"
+							imageMso="HeaderInsertGallery"
+							onAction= "sapxepmucdoid4" />
+			<button id="testButton1-11" label="S&#7855;p x&#7871;p ID6"
+							imageMso="HeaderInsertGallery"
+							onAction= "sapxepmucdo" />
+			<button id="testButton1-12" label="T&#244; phi&#7871;u ZipGrade"
+							imageMso="HeaderInsertGallery"
+							onAction= "Phieu_ZipGrade" />
+                      </menu>
+	<menu id="menu2" label="Ngu&#7891;n g&#7889;c c&#226;u h&#7887;i">
+			<button id="testButton1-13" label="Ghi ch&#250; th&#237;ch VDC"
+							imageMso="HeaderInsertGallery"
+							supertip= "Ghi Ch&#250; Th&#237;ch m&#224;u xanh l&#225; c&#226;y"
+							onAction= "Ghi_chu_thichVDC" /> 
+			<button id="testButton1-14" label="Ghi ch&#250; th&#237;ch BTN"
+							imageMso="HeaderInsertGallery"
+							supertip= "Ghi th&#234;m ngu&#7891;n g&#7889;c c&#226;u h&#7887;i v&#224;o ph&#237;a tr&#432;&#7899;c c&#226;u d&#7851;n c&#7911;a t&#7845;t c&#7843; c&#225;c c&#226;u tr&#7855;c nghi&#7879;m c&#243; trong t&#224;i li&#7879;u (ngu&#7891;n c&#226;u h&#7887;i do b&#7841;n cung c&#7845;p)"
+							onAction= "Ghi_chu_thichBTN" /> 
+			<button id="testButton1-15" label="T&#244; m&#224;u ch&#250; th&#237;ch"
+							imageMso="HeaderInsertGallery"
+							onAction= "To_mau_chu_thich" />
+			<button id="testButton1-16" label="Xo&#225; ch&#250; th&#237;ch"
+							imageMso="HeaderInsertGallery"
+							onAction= "Xoact" />
+					</menu>
+	<menu id="menu3" label="Chu&#7849;n H&#243;a">					
+			<button id="testButton1-17" label="Chu&#7849;n h&#243;a 1"
+                        imageMso="HappyFace"
+						onAction= "Chuan_hoa_16" />
+			<button id="testButton1-18" label="Chu&#7849;n h&#243;a 2"
+                        imageMso="HappyFace"
+						onAction= "Chuan_hoa_0106" />
+			<button id="testButton1-19" label="Chu&#7849;n ho&#225; VDC"
+                        imageMso="HappyFace"
+						screentip= "Chu&#7849;n ho&#225; &#273;&#7883;nh d&#7841;ng theo chu&#7849;n Nh&#243;m to&#225;n VD VDC"
+                        supertip= "&#272;&#7883;nh d&#7841;ng l&#7841;i to&#224;n b&#7897; c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m theo chu&#7849;n &#273;&#7883;nh d&#7841;ng c&#7911;a Nh&#243;m to&#225;n VD-VDC"
+                        onAction= "Chuan_hoa_VDC" />
+			<button id="testButton1-20" label="Chu&#7849;n ho&#225; BTN"
+                        imageMso="HappyFace"
+						screentip= "Chu&#7849;n ho&#225; &#273;&#7883;nh d&#7841;ng theo chu&#7849;n BTN"
+                        supertip= "&#272;&#7883;nh d&#7841;ng l&#7841;i to&#224;n b&#7897; c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m theo chu&#7849;n &#273;&#7883;nh d&#7841;ng c&#7911;a Nh&#243;m to&#225;n h&#7885;c B&#7855;c Trung Nam"
+                        onAction= "Chuan_hoa_BTN" />
+			<button id="testButton1-21" label="Fix &#272;A"
+                        imageMso="SlidesPerPageSlideOutline"
+						onAction= "chuanda" />
+					</menu>
+</group> 
+
+
+<group id="group2" label="&#272;&#7883;nh d&#7841;ng v&#259;n b&#7843;n">
+  	<menu id="menu4" label="&#272;&#225;nh s&#7889; th&#7913; t&#7921;">	           
+      		<button id="testButton2-1" label="Th&#7913; t&#7921; c&#226;u (Text)"
+                        imageMso= "CharacterBorder" 
+						screentip= "Chuy&#7875;n th&#7913; t&#7921; c&#226;u t&#7915; Auto sang Text"
+                        supertip= "Chuy&#7875;n to&#224;n b&#7897; &#273;&#7883;nh d&#7841;ng &#273;&#225;nh th&#7913; t&#7921; d&#7841;ng t&#7921; &#273;&#7897;ng Autonumber sang &#273;&#7883;nh d&#7841;ng d&#7841;ng Text (&#273;&#7875; bi&#234;n t&#7853;p, &#273;&#7883;nh d&#7841;ng,...)"
+                        onAction= "TT_cau_Text" /> 
+			<button id="testButton2-2" label="Th&#7913; t&#7921; c&#226;u (Auto)"
+                        imageMso= "Bullets"
+						screentip= "Chuy&#7875;n th&#7913; t&#7921; c&#226;u t&#7915; Text sang Auto"
+                        supertip= "Chuy&#7875;n to&#224;n b&#7897; &#273;&#7883;nh d&#7841;ng &#273;&#225;nh th&#7913; t&#7921; c&#226;u d&#7841;ng Text sang d&#7841;ng t&#7921; &#273;&#7897;ng Autonumber (Y&#234;u c&#7847;u : c&#226;u h&#7887;i ph&#7843;i &#273;&#432;&#7907;c b&#7855;t &#273;&#7847;u b&#7903;i t&#7915; 'C&#226;u')"
+                        onAction= "TT_cau_Auto" />
+			<button id="testButton2-3" label="S&#7855;p l&#7841;i th&#7913; t&#7921; c&#226;u"
+                        imageMso="RecurrenceEdit"
+                        screentip= "S&#7855;p x&#7871;p l&#7841;i th&#7913; t&#7921; c&#226;u h&#7887;i"
+						supertip= "&#272;&#226;y l&#224; ch&#7913;c n&#259;ng d&#249;ng &#273;&#7875; s&#7855;p x&#7871;p l&#7841;i th&#7913; t&#7921; c&#225;c c&#226;u h&#7887;i &#273;ang c&#243; th&#7913; t&#7921; kh&#244;ng li&#234;n t&#7909;c (Y&#234;u c&#7847;u : c&#226;u h&#7887;i ph&#7843;i &#273;&#432;&#7907;c b&#7855;t &#273;&#7847;u b&#7903;i t&#7915; 'C&#226;u')"
+                        onAction= "Sap_lai_TT_cau" />
+					</menu>
+	<menu id="menu5" label="H&#7895; tr&#7907; smarttest">					
+			<button id="testButton2-4" label="G&#7841;ch ch&#226;n sang &#273;&#7887;"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "sang_do" />
+			<button id="testButton2-5" label="&#272;&#7883;nh d&#7841;ng smartTest"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "Chuyen_SmartTest" />
+			<button id="testButton2-6" label="&#272;A Smarttest"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "daSmartTest" />
+			<button id="testButton2-7" label="NL Smarttest"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "taotendang11" />
+			<button id="testButton2-8" label="DLNH Smarttest"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "taotendang12" />
+			<button id="testButton2-9" label="Matran ID6"
+                        imageMso="SlidesPerPageSlideOutline"
+				      	onAction= "taomatran" />
+					</menu>
+	<menu id="menu6" label="H&#7895; tr&#7907; mathtype">					
+			<button id="testButton2-10" label="&#272;&#7891;ng b&#7897; mathtype"
+                        imageMso="FunctionWizard"
+						onAction= "Sua_Math_lech_dong" />
+			<button id="mathtypehoa" label="Mathtype H&#243;a"
+                        imageMso="AutoSum"
+                        onAction= "MathTypeConvert" /> 
+					</menu>
+	<button id="testButton2-11" label="T&#225;ch l&#7845;y c&#226;u h&#7887;i"
+                        imageMso= "Chart3DBarChart"                         
+						supertip= "T&#225;ch l&#7845;y to&#224;n b&#7897; c&#226;u h&#7887;i ra m&#7897;t file ri&#234;ng (t&#7915; ngu&#7891;n t&#224;i li&#7879;u c&#243; h&#432;&#7899;ng d&#7851;n gi&#7843;i ho&#7863;c ch&#250; th&#237;ch k&#232;m theo m&#7895;i c&#226;u h&#7887;i)"
+						onAction= "Tach_lay_cau_hoi" /> 
+	<button id="testButton2-12" label="T&#7841;o b&#7843;ng &#273;&#225;p &#225;n"
+                        imageMso="ViewSlideSorterView" 
+						supertip= "V&#7899;i &#273;&#7873; b&#224;i c&#243; &#273;&#225;nh d&#7845;u &#273;&#225;p &#225;n b&#7857;ng c&#225;ch g&#7841;ch ch&#226;n, ho&#7863;c t&#244; &#273;&#7887;, ho&#7863;c highlight t&#7915; kho&#225; A.B.C.D. ch&#7913;c n&#259;ng n&#224;y s&#7869; ch&#233;p to&#224;n b&#7897; &#273;&#225;p &#225;n &#273;&#243; ra b&#7843;ng &#273;&#225;p &#225;n &#273;&#7863;t cu&#7889;i t&#224;i li&#7879;u (Y&#234;u c&#7847;u: ch&#7881; c&#243; &#273;&#225;p &#225;n m&#7899;i &#273;&#432;&#7907;c g&#7841;ch ch&#226;n, t&#244; &#273;&#7887;, highlight. Kh&#244;ng g&#7841;ch ch&#226;n b&#7845;t k&#7923; ch&#7895; n&#224;o kh&#225;c)"
+                        onAction= "Tao_bang_dap_an" />
+	<button id="testButton2-13" label="&#272;&#225;nh d&#7845;u &#273;&#225;p &#225;n"
+                        imageMso= "AppointmentColorDialog" 
+						supertip= "T&#7915; b&#7843;ng &#273;&#225;p &#225;n &#273;&#7863;t cu&#7889;i t&#224;i li&#7879;u (li&#234;n t&#7909;c v&#224; b&#7855;t &#273;&#7847;u b&#7903;i c&#226;u 1), ch&#7913;c n&#259;ng n&#224;y s&#7869; &#273;&#225;nh d&#7845;u &#273;&#225;p &#225;n l&#234;n &#273;&#7873; b&#224;i b&#7857;ng c&#225;ch g&#7841;ch ch&#226;n, in &#273;&#7853;m v&#224; t&#244; &#273;&#7887; t&#7915; kho&#225; A.B.C.D."
+                        onAction= "Danh_dau_dap_an" /> 
+    <button id="Ghepdapan" label="Gh&#233;p l&#7901;i gi&#7843;i v&#224;o &#273;&#7873;"
+                        imageMso="ReviewTrackChanges"
+                        onAction= "GhepHoi_Dap_new" /> 
+	<button id="testButton2-14" label="&#7848;n LG"
+                        imageMso= "GroupSmartArtQuickStyles" 
+					 	onAction= "HideGiai" />
+	<button id="testButton2-15" label="Hi&#7879;n LG"
+                        imageMso= "GroupSmartArtQuickStyles" 
+					 	onAction= "Showgiai" />
+	<button id="testButton2-16" label="Gh&#233;p file trong 1 th&#432; m&#7909;c"
+                        imageMso="HeaderInsertGallery"
+                        screentip= "Gh&#233;p t&#7845;t c&#7843; file c&#7911;a 1 th&#432; m&#7909;c"
+						supertip= "Ch&#7881; c&#7847;n m&#7903; 1 file word trong th&#432; m&#7909;c v&#224; ch&#7841;y ch&#7913;c n&#259;ng n&#224;y, t&#7845;t c&#7843; c&#225;c file word trong th&#432; m&#7909;c gh&#233;p l&#7841;i th&#224;nh 1 file duy nh&#7845;t. Y&#234;u c&#7847;u: t&#7845;t c&#7843; file trong &#273;&#243;, th&#432; m&#7909;c ch&#7913;a n&#243; &#273;&#7873;u khong &#273;&#432;&#7907;c b&#7887; d&#7845;u ti&#7871;ng Vi&#7879;t v&#224;o"
+                        onAction= "Ghep_File_In_Folder_new" />
+	<button id="testButton2-17" label="G&#7841;ch &#273;&#225;p &#225;n t&#7915; b&#7843;ng"
+                        imageMso="AppointmentColorDialog"
+                        screentip= "&#272;&#225;nh d&#7845;u &#273;&#225;p &#225;n l&#234;n &#273;&#7873; b&#224;i"
+						supertip= "T&#7915; b&#7843;ng &#273;&#225;p &#225;n &#273;&#7863;t cu&#7889;i t&#224;i li&#7879;u (li&#234;n t&#7909;c v&#224; b&#7855;t &#273;&#7847;u b&#7903;i c&#226;u 1), ch&#7913;c n&#259;ng n&#224;y s&#7869; &#273;&#225;nh d&#7845;u &#273;&#225;p &#225;n l&#234;n &#273;&#7873; b&#224;i b&#7857;ng c&#225;ch g&#7841;ch ch&#226;n, in &#273;&#7853;m v&#224; t&#244; &#273;&#7887; t&#7915; kho&#225; A.B.C.D."
+                        onAction= "Gach_DA_bang" />
+	<button id="testButton2-18" label="G&#7841;ch &#273;&#225;p &#225;n highlight"
+                        imageMso= "TableDesign"
+						onAction= "Gach_DA_Highlight" />	
+</group>
+				
+				
+<group id="group3" label="Bi&#234;n t&#7853;p &#273;&#7873; b&#224;i v&#224; &#273;&#225;p &#225;n"> 
+	<button id="testButton3-1" label="Th&#234;m [&#60;br&#62;]"
+                        imageMso= "OutlinePromoteToHeading" 
+						supertip= "Th&#234;m k&#253; hi&#7879;u [&#60;br&#62;] cu&#7889;i m&#7895;i c&#226;u h&#7887;i, h&#7895; tr&#7907; t&#7841;o file ngu&#7891;n cho ph&#7847;n m&#7873;m McMix v&#224; BT Pro"
+                        onAction= "Them_br" />
+	<button id="testButton3-2" label="Xo&#225; [&#60;br&#62;]"
+                        imageMso= "FileNew" 
+						supertip= "Xo&#225; k&#253; hi&#7879;u [&#60;br&#62;] c&#243; trong file c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m &#273;&#7875; bi&#234;n t&#226;p l&#7841;i c&#226;u h&#7887;i, in &#7845;n,..."
+                        onAction= "Xoa_br" />
+	<button id="testButton3-3" label="Ki&#7875;m tra l&#7895;i"
+                        imageMso= "ChangesDiscardAndRefresh" 
+						supertip= "Ki&#7875;m tra l&#7895;i nh&#7853;p li&#7879;u c&#226;u h&#7887;i tr&#7855;c nghi&#7879;m m&#224; c&#225;c l&#7895;i &#273;&#243; c&#243; th&#7875; d&#7851;n &#273;&#7871;n l&#7895;i m&#7897;t s&#7889; ch&#7913;c n&#259;ng h&#7895; tr&#7907; tr&#7855;c nghi&#7879;m kh&#225;c"
+                        onAction= "Kiem_tra_loi" />
+	<button id="testButton3-4" label="Xo&#225; &#273;&#432;&#7901;ng k&#7867; b&#7843;ng"
+                        imageMso="SlidesPerPageSlideOutline"
+						screentip= "Xo&#225; &#273;&#432;&#7901;ng k&#7867; b&#7843;ng"
+                        supertip= "Chuy&#7875;n to&#224;n b&#7897; Tables c&#243; trong v&#259;n b&#7843;n sang &#273;&#7883;nh d&#7841;ng text (m&#7845;t &#273;&#7883;nh d&#7841;ng b&#7843;ng)"
+                        onAction= "Xoa_duong_ke_bang" />
+	<button id="testButton3-5" label="Ti&#7871;t ki&#7879;m gi&#7845;y (A5)"
+                        imageMso="Piggy"
+						supertip= "&#272;&#7883;nh d&#7841;ng l&#7841;i v&#259;n b&#7843;n sang d&#7841;ng kh&#7893; gi&#7845;y A4 n&#7857;m ngang, chia th&#224;nh 2 c&#7897;t, m&#7895;i c&#7897;t c&#243; kh&#7893; A5, c&#225;c c&#226;u h&#7887;i &#273;&#432;&#7907;c &#233;p g&#7847;n l&#7841;i &#273;&#7875; in &#7845;n &#237;t t&#7889;n gi&#7845;y h&#417;n"
+                        onAction= "Tiet_kiem_giay_A5" /> 
+	<button id="testButton3-6" label="D&#242; c&#226;u tr&#249;ng"
+                        imageMso= "Breakpoint"
+                        onAction= "Do_cau_trung" /> 
+	<button id="testButton3-7" label="S&#7855;p x&#7871;p c&#226;u theo tu&#7923; ch&#7885;n"
+                        imageMso= "RecurrenceEdit"
+                        onAction= "Sap_lai_thu_tu_cau_TN_BTp" /> 
+	<dialogBoxLauncher>
+                <button id="testDialogBoxLauncher1" 
+						onAction="Tiet_kiem_giay_A4" />
+	</dialogBoxLauncher>
+</group>
+
+				
+<group id="group4" label="T&#236;m ki&#7871;m, &#273;&#225;nh d&#7845;u c&#226;u h&#7887;i">
+	<button id="testButton4-1" label="T&#236;m v&#224; Highlight"
+                        imageMso= "AppointmentColor10"
+						supertip= "T&#236;m c&#226;u h&#7887;i c&#243; ch&#7913;a t&#7915; kho&#225; &#273;&#432;&#7907;c cung c&#7845;p b&#7903;i b&#7841;n, sau &#273;&#243; ch&#432;&#417;ng tr&#236;nh s&#7869; &#273;&#225;nh d&#7845;u c&#226;u h&#7887;i &#273;&#227; t&#236;m &#273;&#432;&#7907;c b&#7857;ng c&#225;ch t&#244; highlight n&#7873;n v&#224;ng"
+                        onAction= "Tim_va_Highlight" />
+	<button id="testButton4-2" label="Ch&#233;p c&#226;u Highlight"
+                        imageMso= "WindowsCascade"
+						supertip= "Ch&#233;p t&#7845;t c&#7843; c&#225;c c&#226;u h&#7887;i &#273;&#227; &#273;&#432;&#7907;c &#273;&#225;nh d&#7845;u highlight ra m&#7897;t file m&#7899;i"
+                        onAction= "Chep_cau_HighLight" />
+	<button id="testButton4-3" label="Xo&#225; c&#226;u Highlight"
+                        imageMso= "CancelRequest"
+						supertip= "Xo&#225; t&#7845;t c&#7843; c&#225;c c&#226;u h&#7887;i &#273;&#227; &#273;&#432;&#7907;c &#273;&#225;nh d&#7845;u highlight c&#243; trong file hi&#7879;n h&#224;nh (c&#7849;n th&#7853;n nh&#233;)"
+                        onAction= "Delete_cau_HighLight" />
+	<button id="testButton4-4" label="Highlight c&#226;u t&#432;&#417;ng t&#7921;"
+                        imageMso="ZoomPrintPreviewExcel"
+						supertip= "C&#225;c c&#226;u h&#7887;i c&#243; l&#7863;p l&#7841;i ho&#7863;c c&#243; c&#226;u t&#432;&#417;ng t&#7921; v&#7899;i n&#243; trong t&#224;i li&#7879;u &#273;&#7873;u &#273;&#432;&#7907;c t&#244; highlight, ch&#7913;c n&#259;ng n&#224;y gi&#250;p b&#7841;n nh&#7853;n di&#7879;n &#273;&#432;&#7907;c c&#225;c c&#226;u h&#7887;i c&#243; kh&#7843; n&#259;ng tr&#249;ng l&#7863;p trong t&#224;i li&#7879;u"
+                        onAction= "Highlight_cau_tuong_tu" />
+	<button id="testButton4-5" label="L&#7845;y c&#226;u ch&#7913;a key"
+                        imageMso= "FindDialog"
+						supertip= "T&#236;m ki&#7871;m c&#225;c c&#226;u h&#7887;i ch&#7913;a t&#7915; kho&#225; &#273;&#432;&#7907;c cung c&#7845;p tr&#432;&#7899;c v&#224; ch&#233;p t&#7845;t c&#7843; c&#225;c c&#226;u &#273;&#243; ra m&#7897;t file ri&#234;ng"
+                        onAction= "Lay_cau_chua_key" />
+	<button id="testButton4-6" label="Copy Red-Text"
+                        imageMso= "TrustCenter"
+						supertip= "Ch&#233;p &#273;o&#7841;n text &#273;&#432;&#7907;c t&#244; m&#224;u &#273;&#7887; ra m&#7897;t file m&#7899;i"
+                        onAction= "CopyRed" />
+	<button id="testButton4-7" label="Copy Blue-Text"
+                        imageMso= "AppointmentColor2"
+						supertip= "Ch&#233;p &#273;o&#7841;n text &#273;&#432;&#7907;c t&#244; m&#224;u xanh ra m&#7897;t file m&#7899;i"
+                        onAction= "CopyBlue" /> 
+	<button id="testButton4-8" label="X&#243;a kho&#7843;ng tr&#7855;ng"
+                        imageMso="Clear"
+						supertip= "Ch&#233;p &#273;o&#7841;n text &#273;&#432;&#7907;c t&#244; m&#224;u xanh ra m&#7897;t file m&#7899;i"
+                        onAction= "Xoakhoangtrang" /> 
+	<button id="testButton4-9" label="X&#243;a d&#242;ng tr&#7855;ng"
+                        imageMso="ClearFormatting"
+						supertip= "Ch&#233;p &#273;o&#7841;n text &#273;&#432;&#7907;c t&#244; m&#224;u xanh ra m&#7897;t file m&#7899;i"
+                        onAction= "Xoadongtrang" /> 
+
+</group>
+<group id="group5" label="  ">
+					<button id="testButton6-1" label="Gi&#7899;i thi&#7879;u"
+                        imageMso="CondolatoryEvent" size="large"
+                        onAction= "Gioi_thieu_TG" /> 
+                </group> 
+				
+
+			
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
