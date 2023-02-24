@@ -14,4 +14,5 @@ Precautions
 ---------------------
 * This addin only completely compatible with Office version under 2019.
 * In higher version, this Addin may operate unstable. Some modules appear to notify the error pop-up at the end of the running process, but still produce normal results.
-**THIS TOOL IS FOR EDUCATIONAL USE ONLY, DO NOT USE THIS TOOL FOR COMMERCIAL PURPOSE. PLEASE CONTACT THE AUTHOR FOR MORE DISCUSSION ON THIS ISSUES.**
+---
+**THIS TOOL IS FOR EDUCATIONAL USE ONLY, DO NOT USE THIS TOOL FOR COMMERCIAL PURPOSE. PLEASE CONTACT THE AUTHOR FOR MORE DISCUSSION ON THIS ISSUE.**
