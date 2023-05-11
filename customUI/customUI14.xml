@@ -79,6 +79,15 @@
 			<button id="testButton1-21" label="Fix &#272;A"
                         imageMso="SlidesPerPageSlideOutline"
 						onAction= "chuanda" />
+			<button id="testButton1-22" label="Chuy&#7875;n &#7843;nh v&#7873; Inline with Text"
+                        imageMso="TextWrappingInLineWithText"
+						onAction= "PictureInlineWithText" />	
+			<button id="testButton1-23" label="Canh gi&#7919;a h&#236;nh &#7843;nh"
+                        imageMso="AlignCenter"
+						onAction= "PicCenter" />		
+			<button id="testButton1-24" label="Chu&#7849;n h&#243;a h&#236;nh &#7843;nh"
+                        imageMso="AlignCenter"
+						onAction= "InlineAndCenterAllImages" />						
 					</menu>
 </group> 
 
