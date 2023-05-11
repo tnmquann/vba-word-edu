@@ -7,7 +7,7 @@ Screenshot
  
 Download and Install
 ---------------------
-* You can use pre-packaged version unless you wants to manually compile addin by yourself: [**latest stable release**](https://github.com/tnmquann/vba-word-edu/releases/tag/Stable)
+* You can use pre-packaged version unless you wants to manually compile addin by yourself: [**latest stable release**](https://github.com/tnmquann/vba-word-edu/releases/)
 * Copy this pre-packaged file into `STARTUP` folder of the Microsoft Office. For example (Office 365): `C:\Program Files\Microsoft Office\root\Office16\STARTUP`.
 
 Precautions
